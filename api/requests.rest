@@ -1,0 +1,17 @@
+GET http://localhost:3001/todos
+
+###
+POST http://localhost:3001/todo/new
+Content-Type: application/json
+
+{
+    "text":"maintain diet"
+}
+
+###
+
+DELETE http://localhost:3001/todo/delete/64ce5249f0798b12ccc69629
+
+###
+
+PUT http://localhost:3001/todo/complete/64ce5260f0798b12ccc6962b
